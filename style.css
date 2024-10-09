@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#532f2b,#5e5eb7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendar{
+    width: 300px;
+    height: 250px;
+    background: #c0bcbc;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.left,.right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+
+} 
+
+.right{
+    width: 42%;
+    background: #31054f;
+    color: #c0bcbc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left{
+    width: 58%;
+}
+
+#date{
+    font-size: 100px;
+    line-height: 90px;
+}
